@@ -1,0 +1,17 @@
+# VS Code / 用户级配置意外混入
+*.local.md
+*.local.*
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 备份
+*.bak
+*.backup
