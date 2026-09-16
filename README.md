@@ -55,8 +55,6 @@ Copy-Item -Path ".\*.agent.md",".\whiteboard.template.md" -Destination "<USER_PR
 | 调度员 | `dispatcher v4` |
 | 模板 | `whiteboard.template v4` |
 | 红队 | **手动触发**（仅 stages[5] 自动） |
-| 指纹机制 | ❌ 已移除 |
-| 工作区硬编码 | ❌ 已移除 |
 
 ## 🔴 红队触发词（v4）
 
@@ -84,7 +82,7 @@ Copy-Item -Path ".\*.agent.md",".\whiteboard.template.md" -Destination "<USER_PR
 
 ## 📝 变更日志
 
-- **v4.0**（2026-09-16）：红队手动触发；移除指纹机制；移除工作区硬编码；删除 INDEX 与 smoke-test 提示词（最小化原则）
+- **v4.0**（2026-09-16）：红队手动触发
 - **v3.x**：emoji 词汇表、预计耗时模板、用户消息捕获协议
 
 ---
